@@ -1,0 +1,98 @@
+* {
+  background-color: black;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+#homeHeader {
+  background-color: white;
+  width: 50px;
+  height: 25px;
+  display: flex;
+  margin-left: 75px;
+  margin-top: 20px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#mainName {
+  color: white;
+  width: 100px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: 160px;
+  font-size: 15px;
+}
+#mainName a {
+  color: white;
+  text-decoration: none;
+}
+#HeaderNav {
+  color: white;
+  margin-left: 1150px;
+  margin-top: -40px;
+}
+
+#HeaderNav ul {
+  list-style: none;
+  padding: 0;
+}
+
+#HeaderNav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+#HeaderNav a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 8px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #222;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="submit"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
