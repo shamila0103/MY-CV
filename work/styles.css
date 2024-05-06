@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mainName a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+#mainName {
+  margin-left: 7%;
+  margin-top: 3rem;
+  width: 25px;
+  position: fixed;
+}
+#HeaderNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#HeaderNav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#HeaderNav a {
+  color: white;
+  text-decoration: none;
+}
+#homeHeader {
+  background-color: white;
+  width: 50px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+main {
+  padding-top: 100px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+div {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div p {
+  width: 90%;
+  max-width: 600px;
+}
+
+h3 {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: -25rem;
+  margin-left: 35%;
+  width: 500px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  #codeit {
+    width: 200px;
+  }
+  h3 {
+    font-size: smaller;
+    margin-top: -13rem; 
+    margin-left: 13rem;
+    width: 55%; 
+  }
+}
+@media screen and (max-width: 1200px) {
+  #codeit {
+    width: 200px;
+  }
+  h3 {
+    font-size: smaller;
+    margin-top: -13rem; 
+    margin-left: 13rem;
+    width: 55%; 
+  }
+  #codeit2 {
+    display: none;
+  }
+  #mainName {
+    margin-left: 7%;
+    margin-top: 3rem;
+    width: 25px;
+    position: fixed;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #codeit {
+    width: 200px;
+   margin-left: 2rem;
+  }
+  h3 {
+    font-size: smaller;
+    margin-left: 18rem;
+    margin-top: -8rem;
+    width: 55%; 
+  }
+  #codeit2 {
+    width: 200px;
+    display: block;
+    margin-left: 80%;
+    margin-top: -16rem;
+  }
+  #mainName {
+    margin-left: 7%;
+    margin-top: 3rem;
+    width: 25px;
+    position: fixed;
+  }
+}
+@media screen and (min-width: 100px) {
+  #mainName {
+    margin-left: 25%;
+    margin-top: 3rem;
+    width: 100%;
+    position: fixed;
+  }
+}

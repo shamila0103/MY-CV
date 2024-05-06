@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: black;
+}
+
+#homeHeader {
+  background-color: white;
+  width: 50px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+#mainName {
+  color: white;
+  display: flex;
+  margin-top: -25px;
+  margin-left: 6rem;
+  width: 20px;
+  font-size: 15px;
+}
+#mainName a {
+  color: white;
+  text-decoration: none;
+}
+#HeaderNav {
+  color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+#HeaderNav ul {
+  list-style: none;
+  padding: 0;
+}
+#HeaderNav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+#HeaderNav a {
+  color: white;
+  text-decoration: none;
+}
+#programmer {
+  font-size: 7vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 20vh;
+}
+#firstText, #secondText {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainNav {
+  text-align: center;
+  margin-top: 20px;
+}
+#mainNav a {
+  color: white;
+  text-decoration: underline;
+}
+.photos {
+  text-align: center;
+}
+#description1 {
+  width: 90%;
+  margin: 20px auto;
+}
+#photo1, #photo2 {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+
+}
+@media only screen and (min-width: 768px) {
+  #HeaderNav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}
